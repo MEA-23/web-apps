@@ -86,11 +86,11 @@
 
         
 
-          if(text>5){
+          
 
           hiddenButton.textContent = '';
 
-        }
+        
 
       }
 
