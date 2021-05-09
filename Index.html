@@ -1,0 +1,135 @@
+<!<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title dir="rtl">سبحه</title>
+    
+    <style type="text/css" media="all">
+    
+  
+  
+   #header {grid-area: f;
+    background-color: #333;
+    height: 50px;
+    color: #c0c0e0f6;
+   }
+  
+  #content {grid-area:midle;
+   height: 50px;
+    }
+  
+   #footer {grid-area: ft;
+    height: 50px;
+   }
+  
+   .layout1 {display:flex;
+   flex-direction: row;
+   align-items:center ;
+   justify-content:center ;
+   }
+  
+    #layout {
+    display:grid;
+    background-color:#0c3944a8;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    border:5px solid #f9f96a2a;
+    grid-template-areas:
+    "f  "
+    "midle"
+    "ft  ";
+    width:100%;}
+
+   #clickHere {
+    height:80%;
+    /*border: 5px solid yellow;*/
+   }
+ 
+ </style>
+  <body>
+       <div id="layout">
+     <div class="layout1" id="header" dir="rtl">سبحه</div>
+     
+     <div class="layout1" id="content" dir="rtl">عدد التسبيح</div>
+     
+     <div class="layout1" id="footer"><button dir="rtl" id='t0'
+     onclick="clear()">اعادة ضبط</button> 
+     <br/>
+     
+     <button dir="rtl" id="black">الوضع الداكن</button>
+  
+     <button dir="rtl" id="white">الوضع الفاتح</button>
+     
+     </div>
+   </div>
+   <div id='clickHere'>
+     
+     
+   </div>
+    
+    
+    
+    
+    
+    <script type="text/javascript" charset="utf-8">
+      const body = document.querySelector('body');
+  
+  
+      const hiddenButton= document.querySelector('#clickHere');
+  
+  
+      const num = document.querySelector('#content');
+      const clearButton = document.querySelector('#t0');
+      
+      
+     
+      clearButton.onclick = function (){
+        clear()
+      }
+ 
+      function nightMood (){
+      body.style.backgroundColor = 'black';
+     num.style.color = 'white';
+      }
+      
+      
+      const darkButton = document.querySelector('#black');
+      darkButton.onclick = function (){
+        nightMood();
+      }
+  
+      
+  
+      function clear() {
+        num.textContent ='0';
+        text= 0;
+      }
+      
+      
+      hiddenButton.addEventListener('click', function (){ add1()})
+      let text = 0
+      function add1(){
+     
+        text +=1
+        num.textContent = text;
+
+      }
+  
+      const lightButton = document.querySelector('#white');
+      
+      lightButton.onclick = function (){
+        lightMood();
+      }
+      
+      function lightMood (){
+      body.style.backgroundColor = 'white';
+     num.style.color = 'black';
+      }
+ 
+  
+    </script>
+  </body>
+</html>
