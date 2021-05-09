@@ -64,7 +64,8 @@
 
         
 
-        hiddenButton.textContent = 'اضغط هنا';
+        hiddenButton.innerHTML ='<img height="800px" width="800px" src="pic2.png" style="border-radius: 50%;">';
+     
 
       }
 
