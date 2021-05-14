@@ -34,7 +34,7 @@
   hiddenButton.style.height ='700px';
    hiddenButton.style.width ='700px';
    hiddenButton.style.color ='#1a703f';
-}, 100);
+}, 150);
 } };
       
       hiddenButton.innerHTML ='<img height="700px" width="700px" src="pic2.png" style="border-radius: 50%;">';
