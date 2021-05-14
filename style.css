@@ -2,8 +2,8 @@
   
     body {
       font-family: 'Lateef', serif;
-      transition: background-color 2s,;
       background-color: white;
+      transition: background-color 2s,;
     }
   
    #header {grid-area: f;
