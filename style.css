@@ -3,7 +3,8 @@
     body {
       font-family: 'Lateef', serif;
       background-color: white;
-      transition: background-color  2.4s;
+      transition: background-color  2.4s,
+      color 2.4s;
     }
   
  html {
