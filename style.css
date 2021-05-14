@@ -27,7 +27,7 @@
    }
   
   img {
-    transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s, background-color  2.4s, dissapear 1s,
+    transition: margin 2.4s, border-radius 2s, width 1s, height 1s, background-color  2.4s, dissapear 1s,
     appears 1s, transform 1s;
   }
   
