@@ -102,6 +102,7 @@
     width:100%;
     grid-area: ft2;
     border: 5px solid yellow;
+    height: 1300px;
    }
 
    #clickHere {
