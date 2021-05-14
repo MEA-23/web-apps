@@ -96,8 +96,8 @@
       font-size: 40pt;
       border-radius: 20px;
       transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s,background-color  2.4s;
-      outline: 10px solid red;
-     outline-offset: -30px;
+      outline: 5px solid red;
+     outline-offset: -5px;
     }
 
    #clickHereContainer{
