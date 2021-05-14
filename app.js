@@ -82,7 +82,7 @@
  
  
      function hideButton() {
-       hiddenButton.style.cssText = "height :1300px; display: flex; align-items:center ;justify-content:center ; font-size: 40pt;color:#1a703f;";}
+       hiddenButton.style.cssText = "height :1300px; width: 100% ;display: flex; align-items:center ;justify-content:center ; font-size: 40pt;color:#1a703f;";}
 
 
 
