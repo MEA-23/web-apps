@@ -23,28 +23,28 @@
       
       let time;
   const reSize = () =>{
-    if (hiddenButton.style.height ==='800px' ||  hiddenButton.style.height ==='750px'){
+    if (hiddenButton.style.height ==='700px' ||  hiddenButton.style.height ==='600px'){
    clearTimeout(time);
-   hiddenButton.style.height ='750px';
-   hiddenButton.style.width ='750px';
+   hiddenButton.style.height ='600px';
+   hiddenButton.style.width ='600px';
    hiddenButton.style.color ='red';
    
   time = setTimeout(function() {
 
-  hiddenButton.style.height ='800px';
-   hiddenButton.style.width ='800px';
+  hiddenButton.style.height ='700px';
+   hiddenButton.style.width ='700px';
    hiddenButton.style.color ='#1a703f';
 }, 400);
 } };
       
-      hiddenButton.innerHTML ='<img height="800px" width="800px" src="pic2.png" style="border-radius: 50%;">';
+      hiddenButton.innerHTML ='<img height="700px" width="700px" src="pic2.png" style="border-radius: 50%;">';
       
  let img = document.querySelector('img');
       function clear() {
         num.textContent ='0';
         text= 0;
-        img.style.height = '800px';
-        img.style.width = '800px';
+        img.style.height = '700px';
+        img.style.width = '700px';
       }
       
       
@@ -88,7 +88,7 @@
 
      function showButton() {
        hiddenButton.style.cssText = 
-   ' height :800px; margin: 300px 100px  50px 100px; display: flex;align-items:center ;justify-content:center ;font-size: 40pt;color:#1a703f;border-radius: 50%; background-color:#72eeb386;';
+   ' height :700px; wight:700px; margin: 300px 100px  50px 100px; display: flex;align-items:center ;justify-content:center ;font-size: 40pt;color:#1a703f;border-radius: 50%; background-color:#72eeb386;';
      }
 
 
