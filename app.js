@@ -27,11 +27,13 @@
    clearTimeout(time);
    hiddenButton.style.height ='750px';
    hiddenButton.style.width ='750px';
+   hiddenButton.style.color ='red';
    
   time = setTimeout(function() {
 
   hiddenButton.style.height ='800px';
    hiddenButton.style.width ='800px';
+   hiddenButton.style.color ='#1a703f';
 }, 400);
 } };
       
