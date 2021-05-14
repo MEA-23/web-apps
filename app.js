@@ -27,7 +27,7 @@
    clearTimeout(time);
    hiddenButton.style.height ='600px';
    hiddenButton.style.width ='600px';
-   hiddenButton.style.color ='red';
+   hiddenButton.style.color ='#04343f';
    
  time = setTimeout(function() {
 
