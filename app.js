@@ -57,7 +57,7 @@
           img.style.height = '0px';
         img.style.width = '0px';
         
-
+        reSize();
       }
   
   
