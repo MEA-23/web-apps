@@ -34,6 +34,7 @@
      border-radius: 20px;
      width:170px;
      height:60px;
+     transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s;
    }
   
   
@@ -45,9 +46,15 @@
    } 
   
  
-   #white {background-color: #e7e7e7; }
+   #white {background-color: #e7e7e7;
+   transition: background-color 2.4s;
+    
+   }
  
-   #black {background-color: #555555;}
+   #black {background-color: #555555;
+    transition: background-color  2.4s;
+   
+   }
   
    .layout1 {display:flex;
    flex-direction: row;
