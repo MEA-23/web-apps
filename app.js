@@ -28,11 +28,11 @@
    hiddenButton.style.height ='750px';
    hiddenButton.style.width ='750px';
    
-  time = setTimeout(function() {
+ // time = setTimeout(function() {
 
   hiddenButton.style.height ='800px';
    hiddenButton.style.width ='800px';
-}, 400);
+//}, 400);
 } };
       
       hiddenButton.innerHTML ='<img height="800px" width="800px" src="pic2.png" style="border-radius: 50%;">';
