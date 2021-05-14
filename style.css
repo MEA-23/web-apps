@@ -80,6 +80,7 @@
    align-items:center ;
    justify-content:center ;
    transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s, background-color  2.4s;
+   margin: 5px 5px 0 5px;
    }
   
     #layout {
