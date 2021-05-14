@@ -29,12 +29,12 @@
    hiddenButton.style.width ='600px';
    hiddenButton.style.color ='red';
    
-  time = setTimeout(function() {
+ // time = setTimeout(function() {
 
   hiddenButton.style.height ='700px';
    hiddenButton.style.width ='700px';
    hiddenButton.style.color ='#1a703f';
-}, 400);
+//}, 400);
 } };
       
       hiddenButton.innerHTML ='<img height="700px" width="700px" src="pic2.png" style="border-radius: 50%;">';
