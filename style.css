@@ -114,7 +114,7 @@
     font-size: 40pt;
     color:#1a703f;
     width: 100% ;
-    transition: margin 2.4s, border-radius 2.4s, width 1s, height 1s, background-color  1s;
+    transition: margin 2.4s, border-radius 2.4s, width 0.5s, height 0.5s, background-color  1s;
    }
  
  
