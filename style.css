@@ -7,7 +7,7 @@
     }
   
  html {
-   transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s, background-color  2.4s;
+   transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s, background-color  2.4s, color 2.4s;
  } 
   
    #header {grid-area: f;
