@@ -42,7 +42,7 @@
         num.textContent = text;
         
          
-          hiddenButton.innerHTML ='';
+          hiddenButton.innerHTML ='<img height="0px" width="0px" src="pic2.png" style="border-radius: 50%;">';
         
 
       }
