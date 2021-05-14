@@ -50,7 +50,7 @@
    }
   
   #headContainer{
-    
+    border: 20px solid blue;
     top:0;
     left:0;
     right:20px;
