@@ -82,9 +82,9 @@
     #layout {
     display:grid;
     background-color:#0c3944a8;
-    left:0;
-    right:0;
-    top:0;
+    left:-1px;
+    right:-1px;
+    top:-1px;
     bottom: 0;
     border:5px solid #f9f96a2a;
     grid-template-areas:
@@ -96,7 +96,7 @@
       font-size: 40pt;
       border-radius: 20px;
       transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s,background-color  2.4s;
-      margin: 5px 5px 5px 5px;
+      
     }
 
    #clickHereContainer{
