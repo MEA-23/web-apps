@@ -88,7 +88,7 @@
 
      function showButton() {
        hiddenButton.style.cssText = 
-   ' height :700px; wight:700px; margin: 300px 100px  50px 100px; display: flex;align-items:center ;justify-content:center ;font-size: 40pt;color:#1a703f;border-radius: 50%; background-color:#72eeb386;';
+   ' height :700px; width:700px; margin: 300px 100px  50px 100px; display: flex;align-items:center ;justify-content:center ;font-size: 40pt;color:#1a703f;border-radius: 50%; background-color:#72eeb386;';
      }
 
 
