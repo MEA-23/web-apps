@@ -96,7 +96,8 @@
       font-size: 40pt;
       border-radius: 20px;
       transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s,background-color  2.4s;
-      
+      outline: 10px solid red;
+     outline-offset: -30px;
     }
 
    #clickHereContainer{
@@ -107,8 +108,6 @@
     grid-area: ft2;
     /*border: 5px solid yellow;*/
     height: 1300px;
-    outline: 10px solid red;
-    outline-offset: -30px;
    }
 
    #clickHere {
