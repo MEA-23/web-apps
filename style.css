@@ -51,6 +51,7 @@
   
   #headContainer{
     margin : 10px 10px 0 10px;
+    border: solid black;
   }
 
    #t0 {background-color: #16b60ef7;
