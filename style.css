@@ -95,6 +95,12 @@
       transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s,background-color  2.4s;
     }
 
+   #clickHereContainer{
+     display: flex;
+    align-items:center ;
+    justify-content:center ;
+   }
+
    #clickHere {
     height :1300px;
     /*border: 5px solid yellow;*/
