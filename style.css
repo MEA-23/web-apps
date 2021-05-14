@@ -107,6 +107,7 @@
 
    #clickHere {
     height :1300px;
+    width: 100%;
     border: 5px solid yellow;
     display: flex;
     align-items:center ;
