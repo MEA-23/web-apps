@@ -11,7 +11,7 @@
     height: 100px;
     color: #c0c0e0f6;
     border-radius: 20px;
-    transition: color 2.4s;
+    transition: color 2.4s, background-color  2.4s;
    }
   
   #content {grid-area:midle;
@@ -35,7 +35,7 @@
      border-radius: 20px;
      width:170px;
      height:60px;
-     transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s;
+     transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s, background-color  2.4s;
    }
   
   
@@ -44,7 +44,7 @@
      width: 190px;
      height: 80px;
      font-size: 22pt;
-      transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s;
+      transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s,background-color  2.4s;
    } 
   
  
@@ -62,7 +62,7 @@
    flex-direction: row;
    align-items:center ;
    justify-content:center ;
-   transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s;
+   transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s, background-color  2.4s;
    }
   
     #layout {
@@ -81,7 +81,7 @@
     width:100%;
       font-size: 40pt;
       border-radius: 20px;
-      transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s;
+      transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s,background-color  2.4s;
     }
 
    #clickHere {
@@ -92,7 +92,7 @@
     justify-content:center ;
     font-size: 40pt;
     color:#1a703f;
-    transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s;
+    transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s, background-color  2.4s;
    }
  
  
