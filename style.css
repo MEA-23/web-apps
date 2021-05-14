@@ -86,7 +86,7 @@
     right:0;
     top:0;
     bottom: 0;
-    border:5px solid #f9f96a2a;
+   /* border:5px solid #f9f96a2a;*/
     grid-template-areas:
     "f  "
     "midle"
