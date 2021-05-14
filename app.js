@@ -23,28 +23,26 @@
       
       let time;
   const reSize = () =>{
-    if (hiddenButton.style.height ==='700px' ||  hiddenButton.style.height ==='600px'){
+    if (hiddenButton.style.height ==='800px' ||  hiddenButton.style.height ==='750px'){
    clearTimeout(time);
-   hiddenButton.style.height ='600px';
-   hiddenButton.style.width ='600px';
-   hiddenButton.style.color ='red';
+   hiddenButton.style.height ='750px';
+   hiddenButton.style.width ='750px';
    
   time = setTimeout(function() {
 
-  hiddenButton.style.color ='#1a703f';
-  hiddenButton.style.height ='700px';
-   hiddenButton.style.width ='700px';
+  hiddenButton.style.height ='800px';
+   hiddenButton.style.width ='800px';
 }, 400);
 } };
       
-      hiddenButton.innerHTML ='<img height="700px" width="700px" src="pic2.png" style="border-radius: 50%;">';
+      hiddenButton.innerHTML ='<img height="800px" width="800px" src="pic2.png" style="border-radius: 50%;">';
       
  let img = document.querySelector('img');
       function clear() {
         num.textContent ='0';
         text= 0;
-        img.style.height = '700px';
-        img.style.width = '700px';
+        img.style.height = '800px';
+        img.style.width = '800px';
       }
       
       
