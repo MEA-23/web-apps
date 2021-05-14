@@ -26,6 +26,10 @@
     /*height: 200px;*/
    }
   
+  img {
+    transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s, background-color  2.4s, dissapear 1s,
+    appears 1s;
+  }
   
    button {
      font-size: 20pt;
