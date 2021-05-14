@@ -21,16 +21,14 @@
      num.style.color = 'white';
       }
       
+      hiddenButton.innerHTML ='<img height="800px" width="800px" src="pic2.png" style="border-radius: 50%;">';
       
-      
-  
-      
-  
+ let img = document.querySelector('img');
       function clear() {
         num.textContent ='0';
         text= 0;
-        
-        hiddenButton.innerHTML ='<img height="800px" width="800px" src="pic2.png" style="border-radius: 50%;">';
+        img.style.height = '800px';
+        img.style.width = '800px';
       }
       
       
@@ -42,7 +40,8 @@
         num.textContent = text;
         
          
-          hiddenButton.innerHTML ='<img height="0px" width="0px" src="pic2.png" style="border-radius: 50%;">';
+          img.style.height = '0px';
+        img.style.width = '0px';
         
 
       }
