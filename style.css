@@ -21,6 +21,8 @@
   
   #content {grid-area:midle;
    height: 200px;
+   color: black;
+   transition: color 2.4s;
     }
   
    #footer {grid-area: ft;
