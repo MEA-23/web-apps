@@ -99,6 +99,8 @@
      display: flex;
     align-items:center ;
     justify-content:center ;
+    width:100%;
+    grid-area: ft2;
    }
 
    #clickHere {
