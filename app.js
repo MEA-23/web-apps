@@ -21,6 +21,20 @@
      num.style.color = 'white';
       }
       
+      let time;
+  const reSize = () =>{
+    
+   clearTimeout(time);
+   hiddenButton.style.height ='750px';
+   hiddenButton.style.width ='750px';
+   
+  time = setTimeout(function() {
+
+  hiddenButton.style.height ='800px';
+   hiddenButton.style.width ='800px';
+}, 400);
+ };
+      
       hiddenButton.innerHTML ='<img height="800px" width="800px" src="pic2.png" style="border-radius: 50%;">';
       
  let img = document.querySelector('img');
