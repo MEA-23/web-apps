@@ -23,7 +23,7 @@
       
       let time;
   const reSize = () =>{
-    if (hiddenButton.style.height ='800px' ||  hiddenButton.style.height ='750px'){
+    if (hiddenButton.style.height ==='800px' ||  hiddenButton.style.height ==='750px'){
    clearTimeout(time);
    hiddenButton.style.height ='750px';
    hiddenButton.style.width ='750px';
