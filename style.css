@@ -105,8 +105,10 @@
     justify-content:center ;
     width:100%;
     grid-area: ft2;
-    border: -5px solid yellow;
+    /*border: 5px solid yellow;*/
     height: 1300px;
+    outline: 10px solid red;
+    outline-offset: -30px;
    }
 
    #clickHere {
