@@ -11,6 +11,7 @@
     height: 100px;
     color: #c0c0e0f6;
     border-radius: 20px;
+    transition: color 2.4s;
    }
   
   #content {grid-area:midle;
@@ -43,6 +44,7 @@
      width: 190px;
      height: 80px;
      font-size: 22pt;
+     transition: margin 2.4s, border-radius 2.4s, width 2.4s, height 2.4s;
    } 
   
  
